@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=MSI Embedded Controller
+Comment=Control your MSI 
+Exec=/usr/bin/msi-ec
+Type=Application
+Categories=Controller
+Path=/usr/bin
