@@ -2,7 +2,7 @@
 [Desktop Entry]
 Name=MSI Embedded Controller
 Comment=Control your MSI 
-Exec=/usr/bin/msi-ec
+Exec=/usr/bin/pkexec env DISPLAY=$DISPLAY WAYLAND_DESKTOP=$WAYLAND_DISPLAY XAUTHORITY=$XAUTHORITY /usr/bin/msi-ec
 Type=Application
 Categories=Controller
 Path=/usr/bin

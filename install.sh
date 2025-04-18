@@ -19,4 +19,5 @@ install_as_application() {
 }
 
 check_permissions
+install_as_application
 install_msi_ec
